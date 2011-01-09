@@ -44,7 +44,7 @@
                	<div id="feature">
                 <div id="featureHolder">
                 
-		<div class="featureImg"><?php if(function_exists('meteor_slideshow')) { meteor_slideshow(); } ?></div>
+		<div class="featureImg"><?php if(function_exists('wp_cycle')) { wp_cycle(); }  // if(function_exists('meteor_slideshow')) { meteor_slideshow(); } ?></div>
                         
 </div><!--end of feature holder-->
 </div><!--end of feature wrapper-->
